@@ -9,10 +9,7 @@ export default function Home() {
         <div className="flex-1 text-justify">
           
           <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
-            Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at 
-            nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus 
-            sed augue semper porta. Mauris massa.
+            Derived from the sap of the Acacia tree, this natural, plant-based ingredient is rich in soluble fiber and polysaccharides. It works as a skin-conditioning agent and a prebiotic, nurturing the skin’s microbiome for optimal barrier health. Acacia Fiber also helps retain moisture, soothe irritation, and improve the skin’s resilience to external stressors, making it ideal for sensitive and dry skin formulations.
           </p>
         </div>
 
@@ -26,8 +23,23 @@ export default function Home() {
             className="rounded-lg object-contain"
           />
         </div>
+        
 
       </div>
+      <div className="flex-1 text-center mt-8">
+      <h1 className="text-4xl font-semibold mb-4 text-gray-900 ">Acacia Fiber</h1>
+      <ul className="list-disc list-inside text-base md:text-lg text-gray-700 leading-relaxed space-y-2">
+        <li>Supports skin microbiome balance as a prebiotic.</li>
+        <li>Reinforces skin barrier function.</li>
+        <li>Provides hydration and prevents moisture loss.</li>
+        <li>Calms and soothes sensitive or irritated skin.</li>
+        <li>Enhances skin smoothness and texture.</li>
+      </ul>
+    </div>
+
+
     </section>
+
+    
   );
 }
