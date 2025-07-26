@@ -69,8 +69,8 @@ export default function IngredientsSection() {
               </h3>
               <p className="text-sm text-gray-600 mt-1">{item.description}</p>
                <button className="mt-auto bg-[#ffe394] hover:bg-yellow-400 text-gray-900 font-medium py-2 px-4 rounded-md">
-  Read more
-</button>
+                  Read more
+              </button>
             </div>
           ))}
         </div>
