@@ -21,6 +21,26 @@ const ingredients = [
     description: "Soothes and hydrates the skin",
     image: "/Acacia-Fiber.webp",
   },
+    {
+    title: "Allantoin",
+    description: "Calms and protects sensitive skin",
+    image: "/Acacia-Fiber.webp",
+  },
+  {
+    title: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
+    description: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
+    image: "/Acacia-Fiber.webp",
+  },
+  {
+    title: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
+    description: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
+    image: "/Acacia-Fiber.webp",
+  },
+  {
+    title: "Aloe Vera",
+    description: "Soothes and hydrates the skin",
+    image: "/Acacia-Fiber.webp",
+  },
 ];
 
 export default function IngredientsSection() {
