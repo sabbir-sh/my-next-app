@@ -32,7 +32,7 @@ export default function IngredientsSection() {
           {ingredients.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center bg-transparent p-4 rounded-lg shadow-sm"
+              className="flex flex-col items-center text-center bg-transparent p-4 rounded-lg "
             >
               <div className="w-[300px] h-[300px] relative mb-4 bg-transparent">
                 <Image
