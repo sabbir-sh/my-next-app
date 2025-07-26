@@ -7,13 +7,13 @@ const ingredients = [
     image: "/Acacia-Fiber.webp",
   },
   {
-    title: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
-    description: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
+    title: "Aloe Barbadensis Leaf Extract ",
+    description: "Aloe Barbadensis Leaf Extract ",
     image: "/Acacia-Fiber.webp",
   },
   {
-    title: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
-    description: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
+    title: "Aloe Barbadensis Leaf Juice ",
+    description: "Aloe Barbadensis Leaf Juice",
     image: "/Acacia-Fiber.webp",
   },
   {
@@ -27,13 +27,13 @@ const ingredients = [
     image: "/Acacia-Fiber.webp",
   },
   {
-    title: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
-    description: "Aloe Barbadensis Leaf Extract (Aloe Vera)",
+    title: "Aloe Barbadensis Leaf Extract ",
+    description: "Aloe Barbadensis Leaf Extract ",
     image: "/Acacia-Fiber.webp",
   },
   {
-    title: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
-    description: "Aloe Barbadensis Leaf Juice (Aloe Vera)",
+    title: "Aloe Barbadensis Leaf Juice ",
+    description: "Aloe Barbadensis Leaf Juice ",
     image: "/Acacia-Fiber.webp",
   },
   {
@@ -68,9 +68,9 @@ export default function IngredientsSection() {
                 {item.title}
               </h3>
               <p className="text-sm text-gray-600 mt-1">{item.description}</p>
-              <button className="mt-4 bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-medium py-2 px-4 rounded-md">
-                Read more
-              </button>
+               <button className="mt-auto bg-[#ffe394] hover:bg-yellow-400 text-gray-900 font-medium py-2 px-4 rounded-md">
+  Read more
+</button>
             </div>
           ))}
         </div>
